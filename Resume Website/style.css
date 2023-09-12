@@ -1,0 +1,53 @@
+body{
+    background:lightgray;
+}
+.paper{
+    width: 900px;
+    height: 1200px;
+    box-shadow: 5px 5px 20px;
+    margin: 10px auto;
+}
+.topline{
+    margin: 30px 50px 10px 0px;
+    width: 800px;
+    height:200px;
+    margin: 0px auto;
+}
+h1{
+    padding: 60px 4px 10px; /*changed the right and left padding from 30px to 80px to make it aligned better*/
+    width: 400px; /*added width to the header to allow for space for the contact info*/
+    height: 90px;
+    display:inline-block; /*inline block to allow for the contact info to be aligned with the header*/
+    font-size: 60px; /*made font size larger to make the name a bigger part of the resume*/
+    font-family:'Times New Roman', Times, serif;
+}
+.contact{
+    float: right; /*Added a margin to align it with the h1*/
+    margin: 90px 50px 0px 0px;
+}
+h5{
+    color: blue;
+    font-family:'Gill Sans';
+}
+.left{
+    margin: 0px 50px;
+    width: 550px;
+    display:inline-block;
+}
+.job{
+    font-size: 25px;
+    padding:0px;
+}
+.period{
+    font-size: 10px;
+    padding:0px;
+}
+.right{
+    float: right;
+    display:flex;
+    flex-direction: column;
+    width: 150px;
+    height: 600px;
+    margin: 0px 90px 0px 0px;
+    justify-content:space-between;
+}
